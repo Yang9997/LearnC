@@ -1,6 +1,8 @@
 #include<stdio.h>
+#define COUNT 5
 int main(void)
 {
+    // 数组
     int i;
     float f[4];
 
@@ -13,4 +15,7 @@ int main(void)
     {
         printf("%f\n", f[i]);
     }
+    
+    return 0;
 }
+
