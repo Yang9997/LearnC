@@ -1,0 +1,14 @@
+// 读取文本文件
+#include<stdio.h>
+int main(void)
+{
+    FILE *fp;
+    fp = fopen("hello.txt", "r");
+
+    int c = fgetc(fp);
+    printf("%c\n",c);
+
+    fclose(fp);
+
+    return 0;
+}
