@@ -12,6 +12,7 @@ int main(void)
         return 1;
     }
 
+    // 维护光标，是个指针，读一个字符之后自动移动一下。最后会停在EOF那里。
     while((c = fgetc(fp)) != EOF)
     {
         printf("%c",c);

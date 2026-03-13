@@ -13,6 +13,7 @@ int main(void)
         return 1;
     }
     
+    // 获取第二个参数大小的数据或者遇到'\n'，光标都会停下，进入循环体里面的printf
     while(fgets(s, sizeof(s), fp) != NULL)
     {
         printf("%d: %s",++linecount, s);

@@ -8,7 +8,6 @@ int main(void)
     int mass;
 
     fp = fopen("whales.txt", "r");
-
     if(fp == NULL)
     {
         printf("Error open.\n");
